@@ -1,5 +1,5 @@
-Historical AI Agent
-Overview
+# Historical AI Agent
+## Overview
 
 This project was developed as part of the Advanced Programming course under the supervision of Dr. Hossein Khani at Sharif University of Technology.
 The goal of this project was to design an AI Agent capable of answering questions about historical figures from different eras and regions using a knowledge graph and LLM-based query processing.
