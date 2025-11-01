@@ -64,7 +64,6 @@ Integrate visualization for graph query results.
 
 ## Author
 
-Sobhan Zamani Kiasari
-B.Sc. Computer Engineering
-Sharif University of Technology
+Sobhan Zamani Kiasari, B.Sc. Computer Engineering, Sharif University of Technology
+
 sobhanzkia04@gmail.com
