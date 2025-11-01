@@ -4,7 +4,7 @@
 This project was developed as part of the Advanced Programming course under the supervision of Dr. Hossein Khani at Sharif University of Technology.
 The goal of this project was to design an AI Agent capable of answering questions about historical figures from different eras and regions using a knowledge graph and LLM-based query processing.
 
-Project Description
+## Project Description
 
 The system integrates Neo4j, a graph database, with an LLM-powered reasoning engine to process natural-language questions about historical individuals and their relations.
 
@@ -14,11 +14,7 @@ A custom dataset of famous historical figures across various periods and civiliz
 
 2. Graph Database (Neo4j)
 
-Neo4j was used to represent relationships such as influence, contemporary-of, teacher-of, etc.
-
-Example:
-
-(Aristotle) -[:TEACHER_OF]-> (Alexander_the_Great)
+Neo4j was used to represent relationships.
 
 3. AI Agent (Java)
 
@@ -31,7 +27,7 @@ The system uses Ollama, a lightweight local LLM interface, to interpret natural-
 The agent then formats and presents the retrieved information in human-readable form.
 
 
-Technologies Used
+## Technologies Used
 
 Java 17
 
@@ -43,7 +39,7 @@ Cypher Query Language
 
 Maven (for dependency management)
 
-How to Run
+## How to Run
 
 Install and start Neo4j locally.
 
@@ -58,7 +54,7 @@ mvn clean compile exec:java
 
 Make sure Ollama is running locally and connected via API.
 
-Future Work
+## Future Work
 
 Improve the natural language understanding of complex multi-hop questions.
 
@@ -66,7 +62,7 @@ Extend the dataset with temporal and geographical metadata.
 
 Integrate visualization for graph query results.
 
-Author
+## Author
 
 Sobhan Zamani Kiasari
 B.Sc. Computer Engineering
